@@ -150,7 +150,7 @@
 											<tbody>
 												<?php for($i=1; $i<8; $i++): ?>
 													<tr>
-														<td> <input name="nomor<?php echo $i?>" type="text" class="inputbox " size="1" value="<?php echo $i?>"></td>
+														<td style="text-align: center; vertical-align: middle;"> <?php echo $i?></td>
 														<td> <input name="kartu<?php echo $i?>" type="text" class="inputbox " size="20"/></td>
 														<td> <input name="nama<?php echo $i?>" type="text" class="inputbox " size="33"/></td>
 														<td> <input name="nik<?php echo $i?>" type="text" class="inputbox " size="18"/></td>
