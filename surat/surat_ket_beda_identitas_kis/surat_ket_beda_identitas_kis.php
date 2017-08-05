@@ -183,7 +183,6 @@
 										<td>
 											<select name="atas_nama"  type="text" class="inputbox">
 												<option value="">Atas Nama</option>
-												<option value=""> </option>
 												<option value="An. Kepala Desa <?php echo unpenetration($desa['nama_desa'])?>"> An. Kepala Desa <?php echo unpenetration($desa['nama_desa'])?> </option>
 												<option value="Ub. Kepala Desa <?php echo unpenetration($desa['nama_desa'])?>"> Ub. Kepala Desa <?php echo unpenetration($desa['nama_desa'])?> </option>
 											</select>
