@@ -23,6 +23,7 @@
 </table>
 <div class="clear"></div>
 
+<link href="<?php echo base_url()?>assets/css/report.css" rel="stylesheet" type="text/css">
 <table width="100%">
 	<tr>
 		<td class="indentasi">
@@ -60,11 +61,11 @@
 </table>
 
 <table width="100%">
-<tr></tr>
-<tr></tr>
-<tr><td class="indentasi">Nama tersebut di atas merupakan identitas yang tertera pada KTP dan Kartu Keluarga (KK) sedangkan pada Kartu Indonesia Sehat (KIS) tertulis : </td></tr>
-<tr></tr>
-<link href="<?php echo base_url()?>assets/css/report.css" rel="stylesheet" type="text/css">
+	<tr>
+		<td class="indentasi">Nama tersebut di atas merupakan identitas yang tertera pada KTP dan Kartu Keluarga (KK) sedangkan pada Kartu Indonesia Sehat (KIS) tertulis : </td>
+	</tr>
+</table>
+
 <table class="border thick">
 	<thead>
 		<tr class="border thick">
