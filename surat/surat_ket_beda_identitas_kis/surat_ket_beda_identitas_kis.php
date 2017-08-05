@@ -155,7 +155,9 @@
 														<td> <input name="nama<?php echo $i?>" type="text" class="inputbox " size="33"/></td>
 														<td> <input name="nik<?php echo $i?>" type="text" class="inputbox " size="18"/></td>
 														<td> <input name="alamat<?php echo $i?>" type="text" class="inputbox " size="36"/></td>
-														<td> <input name="ttl<?php echo $i?>" type="text" class="inputbox " size="9"/></td>
+														<td>
+																<input name="tanggallahir<?php echo $i?>" type="text" class="inputbox datepicker" size="20"/>
+														</td>
 														<td> <input name="faskes<?php echo $i?>" type="text" class="inputbox " size="15"/></td>
 													</tr>
 												<?php endfor; ?>
